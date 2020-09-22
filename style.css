@@ -1,0 +1,68 @@
+body{
+background-color:pink;
+}
+img{
+width:400px;
+
+}
+h1{
+margin:50px;
+display:flex;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 25px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gray;
+}
+
+#sea{
+background-color:yellow;
+width:800px;
+margin-left:auto;
+margin-right:auto;
+}
+.head { background-color: #333;
+color:white;
+border: 3px solid white;
+margin-top: none;
+}
+ .text { background-color:  #333;
+ color: white;
+ font-size:50px;
+ border: 3px solid white;
+ padding: 40px;
+ }
+ #image { margin-left: 230px;
+ margin-right: 50px;
+ border: 3px solid white;}
+ .columns { display: flex;
+ margin-top: 30px;
+ border: none;}
+ #footer {background-color: #333;
+ height: 150px;
+ width: auto;
+ border: 3px solid white;
+ margin-top: 30px;
+ margin-bottom: none;
+ }
+ #findmore {margin-top: 10px; 
+ border: none;
+ color: white;}
+ a { color: white;}
+ 

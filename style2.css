@@ -1,0 +1,31 @@
+body{
+background-color:pink;
+}
+img{
+width:400px;
+
+}
+h1{
+margin:50px;
+display:flex;
+}
+.head { background-color:#333;
+color:white;
+border: 3px solid white;
+margin-top: none;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 25px;
+}
+.text { background-color:#333;
+ color: white;
+ font-size:50px;
+ border: 3px solid white;
+ padding: 40px;
+ }
+ 
+ 
