@@ -13,13 +13,20 @@ display:flex;
 color:white;
 border: 3px solid white;
 margin-top: none;
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  font-size: 25px;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gray;
 }
 .text { background-color:#333;
  color: white;
@@ -28,14 +35,29 @@ ul {
  padding: 40px;
  }
  
- 
- 
- #footer {background-color: #333;
- height: 150px;
- width: auto;
- border: 3px solid white;
- margin-top: 30px;
- margin-bottom: none;
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 25px;
+}
+ footer {
+ background-color: #333;
+ color:white;
+ text-align: right;
+ padding: 11px;
  }
+ .paragraph {
+	 margin-right: 25px;
+	 font-size: 20px;
+ }
+
+.contact-picture {
+	margin-left: 20px;
+}
+.columns { display: flex;
+flex-direction: row;}
 
  

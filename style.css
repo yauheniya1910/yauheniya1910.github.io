@@ -30,13 +30,6 @@ li a {
 li a:hover {
   background-color: gray;
 }
-
-#sea{
-background-color:yellow;
-width:800px;
-margin-left:auto;
-margin-right:auto;
-}
 .head { background-color: #333;
 color:white;
 border: 3px solid white;
@@ -54,15 +47,16 @@ margin-top: none;
  .columns { display: flex;
  margin-top: 30px;
  border: none;}
- #footer {background-color: #333;
- height: 150px;
- width: auto;
- border: 3px solid white;
- margin-top: 30px;
- margin-bottom: none;
+ 
+ footer {
+ background-color: #333;
+ color:white;
+ text-align: right;
+ padding: 11px;
  }
- #findmore {margin-top: 10px; 
- border: none;
- color: white;}
- a { color: white;}
+ .paragraph {
+	 margin-right: 25px;
+	 font-size:20px;
+ }
+
  
